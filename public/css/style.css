@@ -120,8 +120,8 @@ a:link {
 @media only screen and (min-width: 250px) and (max-width: 450px) {
   #header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas: grid_logo grid_basket grid_recherche grid_recherche;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "grid_logo grid_basket" "grid_recherche grid_recherche";
     row-gap: 2rem;
     column-gap: 2rem;
   }
