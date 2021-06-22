@@ -7,4 +7,16 @@
         color: black;
     }
 
-    
+    img {
+        object-fit: contain;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    .fas {
+        color: #965fe9;
+        width: 2em;
+        height: 2em;
+    }

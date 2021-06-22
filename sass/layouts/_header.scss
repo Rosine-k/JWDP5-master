@@ -1,0 +1,79 @@
+  #recherche {
+     width: 12em;
+     height: 3em;
+     border-radius: 1rem 0 0 1rem;
+     padding: 0.8em;
+     border: 2px solid #b46f94;
+        @media only screen and (min-width: 500px) and (max-width: 800px) {
+          width: 8.7em;
+        }
+       @media only screen and (min-width: 250px) and (max-width: 450px) {
+          width: 5em;
+        }
+    }
+
+  .recherche_btn {
+     color: #965fe9;
+     font-weight: bold;
+     border: transparent;  
+     height: 2.7em;
+     border: 2px solid #b46f94;
+     background-color: white;
+     border-radius: 0 1rem 1rem 0;
+     align-items: center;
+     padding-right: 0.4em;
+     padding-left: 0.9em;
+     padding-top: 0.69em;
+     padding-bottom: 0.69em;
+        @media only screen and (min-width: 250px) and (max-width: 450px) {
+         padding-left: 0em;
+         padding-right: 0em;
+        }
+    }
+
+    .recherche_btn:hover {
+        background-color: #f3e9f1;
+    }
+
+   .basket {
+       font-weight: 500;
+       @media only screen and (min-width: 250px) and (max-width: 450px) {
+          grid-area: grid_basket;
+        }
+    }
+
+   ::placeholder {
+       @media only screen and (min-width: 500px) and (max-width: 800px) {
+         font-size: 0.7em;
+         font-weight: bold;
+        }
+        @media only screen and (min-width: 250px) and (max-width: 450px) {
+         font-size: 0.5em;
+        }
+    }
+
+   .logo {
+       @media only screen and (min-width: 250px) and (max-width: 450px) {
+         height: 3em;
+         width: 3em;
+         grid-area: grid_logo;
+        }
+    }
+
+   #header {
+        @media only screen and (min-width: 250px) and (max-width: 450px) {
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           grid-template-areas: "grid_logo grid_basket"
+                                "grid_recherche grid_recherche";                       
+           row-gap: 2rem;
+           column-gap: 2rem;                       
+        }
+    }
+
+   .btn_search {
+       @media only screen and (min-width: 250px) and (max-width: 450px) {
+          grid-area: grid_recherche;
+       } 
+    }
+
